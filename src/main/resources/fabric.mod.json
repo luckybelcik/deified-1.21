@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "deified",
+	"version": "${version}",
+	"name": "Deified",
+	"description": "To make someone or something into a god.",
+	"authors": [
+		"luckybelcik"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/deified/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.luckybelcik.deified.Deified"
+		],
+		"fabric-datagen": [
+			"com.luckybelcik.deified.DeifiedDataGenerator"
+		],
+		"client": [
+			"com.luckybelcik.deified.DeifiedClient"
+		]
+	},
+	"mixins": [
+		"deified.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
