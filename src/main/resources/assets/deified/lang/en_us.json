@@ -1,0 +1,13 @@
+{
+  "item.deified.nexus": "The Nexus",
+  "item.deified.debug_tools": "Debug Tools",
+  "item.deified.holy_water_bottle": "Bottle Of Holy Water",
+
+  "block.deified.blessed_dirt": "Blessed Dirt",
+  "block.deified.protected_blessed_dirt": "Protected Blessed Dirt",
+  "block.deified.blessed_grass": "Blessed Grass",
+  "block.deified.protected_blessed_grass": "Protected Blessed Grass",
+
+  "itemgroup.deified.eden_items": "Eden Dimension",
+  "itemgroup.deified.deified_debug": "Deified Debug Tools"
+}

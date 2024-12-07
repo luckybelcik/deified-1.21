@@ -1,5 +1,8 @@
 package com.luckybelcik.deified;
 
+import com.luckybelcik.deified.block.ModBlocks;
+import com.luckybelcik.deified.item.ModItemGroups;
+import com.luckybelcik.deified.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,9 @@ public class Deified implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
