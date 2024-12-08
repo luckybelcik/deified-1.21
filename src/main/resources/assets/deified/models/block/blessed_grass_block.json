@@ -2,10 +2,10 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/cube_all",
 	"textures": {
-		"0": "deified:block/blessed_grass_side",
-		"1": "deified:block/blessed_grass_top",
+		"0": "deified:block/blessed_grass_block_side",
+		"1": "deified:block/blessed_grass_block_top",
 		"2": "deified:block/blessed_dirt",
-		"particle": "deified:block/blessed_grass_top"
+		"particle": "deified:block/blessed_grass_block_top"
 	},
 	"elements": [
 		{

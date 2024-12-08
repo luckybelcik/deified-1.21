@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {"item": "deified:blessed_dirt"},
+    {"item": "deified:blessed_dirt"},
+    {"item": "deified:blessed_dirt"},
+    {"item": "deified:blessed_dirt"},
+    {"item": "deified:holy_water_bottle"},
+    {"item": "deified:blessed_dirt"},
+    {"item": "deified:blessed_dirt"},
+    {"item": "deified:blessed_dirt"},
+    {"item": "deified:blessed_dirt"}
+  ],
+  "result": {
+    "count": 8,
+    "id": "deified:protected_blessed_dirt"
+  }
+}

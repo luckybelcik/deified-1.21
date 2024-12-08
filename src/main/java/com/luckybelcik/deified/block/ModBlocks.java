@@ -18,9 +18,9 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.GRAVEL)));
         public static final Block PROTECTED_BLESSED_DIRT = registerBlock("protected_blessed_dirt",
             new Block(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.GRAVEL)));
-    public static final Block BLESSED_GRASS = registerBlock("blessed_grass",
+    public static final Block BLESSED_GRASS_BLOCK = registerBlock("blessed_grass_block",
             new Block(AbstractBlock.Settings.create().strength(0.6f).sounds(BlockSoundGroup.GRASS)));
-        public static final Block PROTECTED_BLESSED_GRASS = registerBlock("protected_blessed_grass",
+        public static final Block PROTECTED_BLESSED_GRASS_BLOCK = registerBlock("protected_blessed_grass_block",
             new Block(AbstractBlock.Settings.create().strength(0.6f).sounds(BlockSoundGroup.GRASS)));
 
     private static Block registerBlock(String name, Block block) {

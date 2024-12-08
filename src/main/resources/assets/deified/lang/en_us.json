@@ -5,8 +5,8 @@
 
   "block.deified.blessed_dirt": "Blessed Dirt",
   "block.deified.protected_blessed_dirt": "Protected Blessed Dirt",
-  "block.deified.blessed_grass": "Blessed Grass",
-  "block.deified.protected_blessed_grass": "Protected Blessed Grass",
+  "block.deified.blessed_grass_block": "Blessed Grass Block",
+  "block.deified.protected_blessed_grass_block": "Protected Blessed Grass Block",
 
   "itemgroup.deified.eden_items": "Eden Dimension",
   "itemgroup.deified.deified_debug": "Deified Debug Tools"

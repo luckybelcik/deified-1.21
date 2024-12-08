@@ -8,10 +8,13 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
+import static net.minecraft.item.Items.GLASS_BOTTLE;
+
 public class ModItems {
     public static final Item NEXUS = registerItem("nexus", new Item(new Item.Settings()));
     public static final Item DEBUG_TOOLS = registerItem("debug_tools", new Item(new Item.Settings()));
-    public static final Item HOLY_WATER_BOTTLE = registerItem("holy_water_bottle", new Item(new Item.Settings()));
+    public static final Item HOLY_WATER_BOTTLE = registerItem("holy_water_bottle", new Item(
+            new Item.Settings().recipeRemainder(GLASS_BOTTLE)));
 
 
     private static Item registerItem(String name, Item item) {

@@ -15,12 +15,12 @@ public class ModItemGroups {
     public static final ItemGroup EDEN_ITEMS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Deified.MOD_ID, "eden_items"),
             FabricItemGroup.builder()
-                    .icon(() -> new ItemStack(ModBlocks.BLESSED_GRASS))
+                    .icon(() -> new ItemStack(ModBlocks.BLESSED_GRASS_BLOCK))
                     .displayName(Text.translatable("itemgroup.deified.eden_items"))
                     .entries((displayContext, entries) -> {
-                      entries.add(ModBlocks.BLESSED_GRASS);
+                      entries.add(ModBlocks.BLESSED_GRASS_BLOCK);
                       entries.add(ModBlocks.BLESSED_DIRT);
-                      entries.add(ModBlocks.PROTECTED_BLESSED_GRASS);
+                      entries.add(ModBlocks.PROTECTED_BLESSED_GRASS_BLOCK);
                       entries.add(ModBlocks.PROTECTED_BLESSED_DIRT);
                       entries.add(ModItems.HOLY_WATER_BOTTLE);
                     }).build());

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "deified:blessed_dirt",
+    "deified:blessed_grass_block",
+    "deified:protected_blessed_dirt",
+    "deified:protected_blessed_grass_block"
+  ]
+}
