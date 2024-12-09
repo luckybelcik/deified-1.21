@@ -4,6 +4,10 @@ import com.luckybelcik.deified.Deified;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.FlowerBlock;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -23,6 +27,10 @@ public class ModBlocks {
         public static final Block PROTECTED_BLESSED_GRASS_BLOCK = registerBlock("protected_blessed_grass_block",
             new Block(AbstractBlock.Settings.create().strength(0.6f).sounds(BlockSoundGroup.GRASS)));
 
+    public static final MultipleFlowerBlock SPIDER_LILY = (MultipleFlowerBlock) registerBlock("spider_lily", new MultipleFlowerBlock(
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.DARK_RED)
+    ));
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Deified.MOD_ID, name), block);

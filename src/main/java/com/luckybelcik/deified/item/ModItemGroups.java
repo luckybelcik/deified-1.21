@@ -22,6 +22,7 @@ public class ModItemGroups {
                       entries.add(ModBlocks.BLESSED_DIRT);
                       entries.add(ModBlocks.PROTECTED_BLESSED_GRASS_BLOCK);
                       entries.add(ModBlocks.PROTECTED_BLESSED_DIRT);
+                      entries.add(ModBlocks.SPIDER_LILY);
                       entries.add(ModItems.HOLY_WATER_BOTTLE);
                     }).build());
 
