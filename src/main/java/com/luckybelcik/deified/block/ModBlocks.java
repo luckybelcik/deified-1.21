@@ -23,6 +23,21 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(0.6f).sounds(BlockSoundGroup.GRASS)));
         public static final Block PROTECTED_BLESSED_GRASS_BLOCK = registerBlock("protected_blessed_grass_block",
             new Block(AbstractBlock.Settings.create().strength(0.6f).sounds(BlockSoundGroup.GRASS)));
+    public static final Block LIMESTONE = registerBlock("limestone",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(0.8f)
+                    .sounds(BlockSoundGroup.STONE)
+                    .requiresTool()));
+    public static final Block LIMESTONE_BRICKS = registerBlock("limestone_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(1f)
+                    .sounds(BlockSoundGroup.STONE)
+                    .requiresTool()));
+    public static final Block COBBLED_LIMESTONE = registerBlock("cobbled_limestone",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(1.2f)
+                    .sounds(BlockSoundGroup.STONE)
+                    .requiresTool()));
 
     public static final FlowerBlock HYDRANGEA_FLOWER = (FlowerBlock) registerBlock("hydrangea_flower",
             new FlowerBlock(
