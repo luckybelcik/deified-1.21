@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:air"
+    },
+    "@": {
+      "item": "deified:smooth_marble"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "@@@"
+  ],
+  "result": {
+    "count": 6,
+    "id": "deified:smooth_marble_slab"
+  }
+}

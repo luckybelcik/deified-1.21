@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "deified:block/chiseled_marble_top",
+    "side": "deified:block/chiseled_marble_side"
+  }
+}

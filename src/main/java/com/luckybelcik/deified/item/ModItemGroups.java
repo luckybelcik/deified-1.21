@@ -25,6 +25,12 @@ public class ModItemGroups {
                       entries.add(ModBlocks.LIMESTONE);
                       entries.add(ModBlocks.LIMESTONE_BRICKS);
                       entries.add(ModBlocks.COBBLED_LIMESTONE);
+                      entries.add(ModBlocks.MARBLE);
+                      entries.add(ModBlocks.MARBLE_BRICKS);
+                      entries.add(ModBlocks.SMOOTH_MARBLE_SLAB);
+                      entries.add(ModBlocks.SMOOTH_MARBLE_STAIRS);
+                      entries.add(ModBlocks.SMOOTH_MARBLE);
+                      entries.add(ModBlocks.CHISELED_MARBLE);
                       entries.add(ModBlocks.SPIDER_LILY);
                       entries.add(ModBlocks.HYDRANGEA_FLOWER);
                       entries.add(ModBlocks.HYDRANGEA_LEAVES);

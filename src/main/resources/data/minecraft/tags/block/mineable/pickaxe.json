@@ -3,6 +3,11 @@
   "values": [
     "deified:limestone",
     "deified:limestone_bricks",
-    "deified:cobbled_limestone"
+    "deified:cobbled_limestone",
+    "deified:marble",
+    "deified:smooth_marble",
+    "deified:smooth_marble_slab",
+    "deified:chiseled_marble",
+    "deified:marble_bricks"
   ]
 }
