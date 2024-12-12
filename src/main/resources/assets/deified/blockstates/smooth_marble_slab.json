@@ -4,7 +4,7 @@
       "model": "deified:block/multi-model/smooth_marble_slab"
     },
     "type=double": {
-      "model": "deified:block/smooth_marble"
+      "model": "deified:block/multi-model/smooth_marble"
     },
     "type=top": {
       "model": "deified:block/multi-model/smooth_marble_slab_top"

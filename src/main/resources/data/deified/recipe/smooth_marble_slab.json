@@ -3,16 +3,13 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:air"
-    },
-    "@": {
       "item": "deified:smooth_marble"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "@@@"
+    "   ",
+    "   ",
+    "###"
   ],
   "result": {
     "count": 6,

@@ -3,15 +3,15 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "deified:smooth_marble_slab"
+      "item": "deified:limestone"
     }
   },
   "pattern": [
-    "#",
-    "#"
+    "##",
+    "##"
   ],
   "result": {
-    "count": 1,
-    "id": "deified:chiseled_marble"
+    "count": 4,
+    "id": "deified:limestone_bricks"
   }
 }
