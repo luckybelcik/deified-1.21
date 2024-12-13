@@ -5,6 +5,8 @@ import com.luckybelcik.deified.item.ModItemGroups;
 import com.luckybelcik.deified.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.item.v1.DefaultItemComponentEvents;
+import net.minecraft.component.DataComponentTypes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
