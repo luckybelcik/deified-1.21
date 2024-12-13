@@ -26,18 +26,18 @@ public class ModBlocks {
 
         // STONES AND STUFF
 
-    public static final Block LIMESTONE = registerBlock("limestone",
-            new Block(AbstractBlock.Settings.create()
+    public static final VeldableBlock LIMESTONE = (VeldableBlock) registerBlock("limestone",
+            new VeldableBlock(AbstractBlock.Settings.create()
                     .strength(0.8f)
                     .sounds(BlockSoundGroup.STONE)
                     .requiresTool()));
-    public static final Block LIMESTONE_BRICKS = registerBlock("limestone_bricks",
-            new Block(AbstractBlock.Settings.create()
+    public static final VeldableBlock LIMESTONE_BRICKS = (VeldableBlock) registerBlock("limestone_bricks",
+            new VeldableBlock(AbstractBlock.Settings.create()
                     .strength(1f)
                     .sounds(BlockSoundGroup.STONE)
                     .requiresTool()));
-    public static final Block COBBLED_LIMESTONE = registerBlock("cobbled_limestone",
-            new Block(AbstractBlock.Settings.create()
+    public static final VeldableBlock COBBLED_LIMESTONE = (VeldableBlock) registerBlock("cobbled_limestone",
+            new VeldableBlock(AbstractBlock.Settings.create()
                     .strength(1.2f)
                     .sounds(BlockSoundGroup.STONE)
                     .requiresTool()));

@@ -1,6 +1,41 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "deified:item/animosity"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "deified:item/animosity"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-34.25, -90, 0],
+			"translation": [0, 15.75, 2.5],
+			"scale": [2, 2, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -34.25],
+			"translation": [0, 15.75, 2.5],
+			"scale": [2, 2, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 66],
+			"translation": [1.13, 8, 1.13],
+			"scale": [1.2, 1.2, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -66],
+			"translation": [1.13, 8, 1.13],
+			"scale": [1.2, 1.2, 1]
+		},
+		"ground": {
+			"translation": [0, 7.5, 0],
+			"scale": [1.35, 1.35, 1]
+		},
+		"head": {
+			"rotation": [0, -90, 83],
+			"translation": [0, 12.25, -11.5],
+			"scale": [1.35, 1.35, 1.35]
+		},
+		"fixed": {
+			"scale": [1.35, 1.35, 1]
+		}
+	}
 }

@@ -23,7 +23,7 @@ public class ModItems {
     public static final SwordItem ANIMOSITY = (SwordItem) registerItem("animosity", new SwordItem(ModToolMaterials.MADSTONE , new Item.Settings()
             .fireproof()
             .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))
-            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.MADSTONE, 3, -2.0f))));
+            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.MADSTONE, 4, -2f))));
 
 
     private static Item registerItem(String name, Item item) {
@@ -36,6 +36,9 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(NEXUS);
             fabricItemGroupEntries.add(ANIMOSITY);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(MADSTONE);
         });
     }
 }

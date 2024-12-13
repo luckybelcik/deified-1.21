@@ -1,7 +1,10 @@
 {
-  "item.deified.nexus": "The Nexus",
+  "item.deified.madstone": "Madstone",
   "item.deified.debug_tools": "Debug Tools",
   "item.deified.holy_water_bottle": "Bottle Of Holy Water",
+
+  "item.deified.animosity": "Animosity",
+  "item.deified.nexus": "The Nexus",
 
   "block.deified.blessed_dirt": "Blessed Dirt",
   "block.deified.protected_blessed_dirt": "Protected Blessed Dirt",

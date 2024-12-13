@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial{
     MADSTONE(BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
-            32767, 10.0F, 5.0F, 25, () -> Ingredient.ofItems(ModItems.MADSTONE));
+            32767, 10.0F, 0.0F, 25, () -> Ingredient.ofItems(ModItems.MADSTONE));
 
 	private final TagKey<Block> inverseTag;
 	private final int itemDurability;

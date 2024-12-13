@@ -1,3 +1,11 @@
 {
-  "parent": "deified:block/limestone"
+  "parent": "deified:block/multi-model/velded/limestone",
+    "variants": {
+    "velded=false": {
+      "model": "deified:block/multi-model/velded/limestone"
+    },
+    "velded=true": {
+      "model": "deified:block/multi-model/velded/velded_limestone"
+    }
+  }
 }
