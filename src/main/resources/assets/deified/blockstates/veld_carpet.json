@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+    {
+      "model": "deified:block/veld_carpet"
+    },
+    {
+      "model": "deified:block/veld_carpet",
+      "y": 90
+    },
+    {
+      "model": "deified:block/veld_carpet",
+      "y": 180
+    },
+    {
+      "model": "deified:block/veld_carpet",
+      "y": 270
+    }]
+  }
+}

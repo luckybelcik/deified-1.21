@@ -1,7 +1,20 @@
 {
   "variants": {
-    "": {
-      "model": "deified:block/blessed_grass_block"
-    }
+    "": [
+      {
+        "model": "deified:block/blessed_grass_block"
+      },
+      {
+        "model": "deified:block/blessed_grass_block",
+        "y": 90
+      },
+      {
+        "model": "deified:block/blessed_grass_block",
+        "y": 180
+      },
+      {
+        "model": "deified:block/blessed_grass_block",
+        "y": 270
+      }]
   }
 }

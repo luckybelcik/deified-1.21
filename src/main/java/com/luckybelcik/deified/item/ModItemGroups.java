@@ -31,6 +31,7 @@ public class ModItemGroups {
                       entries.add(ModBlocks.SMOOTH_MARBLE_STAIRS);
                       entries.add(ModBlocks.SMOOTH_MARBLE);
                       entries.add(ModBlocks.CHISELED_MARBLE);
+                      entries.add(ModBlocks.VELD_CARPET);
                       entries.add(ModBlocks.SPIDER_LILY);
                       entries.add(ModBlocks.HYDRANGEA_FLOWER);
                       entries.add(ModBlocks.HYDRANGEA_LEAVES);

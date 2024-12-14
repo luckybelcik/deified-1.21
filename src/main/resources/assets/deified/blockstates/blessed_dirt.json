@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "deified:block/blessed_dirt"
-    }
+        "model": "deified:block/blessed_dirt"
+      }
   }
 }

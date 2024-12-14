@@ -17,6 +17,8 @@ public class DeifiedClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HYDRANGEA_FLOWER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HYDRANGEA_LEAVES, RenderLayer.getCutout());
 
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> 0xe6ca85, ModBlocks.VELD_CARPET);
+        ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> 0xe6ca85, ModBlocks.VELD_BLOCK);
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> 0xe6ca85, ModBlocks.LIMESTONE);
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> 0xe6ca85, ModBlocks.LIMESTONE_BRICKS);
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> 0xe6ca85, ModBlocks.COBBLED_LIMESTONE);

@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "deified:block/veld_block"
+      },
+      {
+        "model": "deified:block/mirrored/veld_block"
+      },
+      {
+        "model": "deified:block/veld_block",
+        "y": 90
+      },
+      {
+        "model": "deified:block/mirrored/veld_block",
+        "y": 90
+      },
+      {
+        "model": "deified:block/veld_block",
+        "y": 180
+      },
+      {
+        "model": "deified:block/mirrored/veld_block",
+        "y": 180
+      },
+      {
+        "model": "deified:block/veld_block",
+        "y": 270
+      },
+      {
+        "model": "deified:block/mirrored/veld_block",
+        "y": 270
+      }
+    ]
+  }
+}

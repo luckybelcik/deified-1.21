@@ -1,10 +1,18 @@
 {
   "variants": {
-    "velded=false": {
-      "model": "deified:block/multi-model/velded/limestone"
-    },
-    "velded=true": {
-      "model": "deified:block/multi-model/velded/velded_limestone"
-    }
+    "velded=false":[
+      {
+        "model": "deified:block/multi-model/velded/limestone"
+      },
+      {
+        "model": "deified:block/mirrored/limestone"
+      }],
+    "velded=true":[
+      {
+        "model": "deified:block/multi-model/velded/velded_limestone"
+      },
+      {
+        "model": "deified:block/mirrored/velded_limestone"
+      }]
   }
 }

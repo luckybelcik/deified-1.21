@@ -1,11 +1,24 @@
 {
   "variants": {
-    "bush_variant=0": {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_0"},
-    "bush_variant=1": {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_1"},
-    "bush_variant=2": {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_2"},
-    "bush_variant=3": {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_3"},
-    "bush_variant=4": {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_4"},
-    "bush_variant=5": {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_5"},
-    "bush_variant=6": {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_6"}
+    "": [
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_0"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_0"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_0"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_0"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_0"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_0"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_0"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_0"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_0"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_0"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_0"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_0"},
+
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_1"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_2"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_3"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_4"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_5"},
+      {"model": "deified:block/multi-model/bush_variant/hydrangea_leaves_6"}]
   }
 }

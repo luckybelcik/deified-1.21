@@ -1,7 +1,12 @@
 {
   "variants": {
-    "": {
-      "model": "deified:block/smooth_marble"
-    }
+    "": [
+      {
+        "model": "deified:block/smooth_marble"
+      },
+      {
+        "model": "deified:block/mirrored/smooth_marble"
+      }
+    ]
   }
 }

@@ -1,6 +1,6 @@
 {   "parent": "block/block",
     "textures": {
-        "particle": "deified:block/limestone_bricks",
+        "particle": "deified:block/veld_overlay_top",
         "bottom": "deified:block/limestone_bricks",
         "top": "deified:block/veld_overlay_top",
         "side": "deified:block/limestone_bricks",

@@ -74,20 +74,31 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.STONE)
                     .requiresTool()));
 
-
         // PLANTS AND STUFF
+
+    public static final CarpetBlock VELD_CARPET = (CarpetBlock) registerBlock("veld_carpet",
+            new CarpetBlock(
+                    AbstractBlock.Settings.create()
+                            .hardness(0.2f)
+                            .sounds(BlockSoundGroup.MOSS_CARPET)
+            ));
+    public static final Block VELD_BLOCK = registerBlock("veld_block",
+            new Block(
+                    AbstractBlock.Settings.create()
+                            .hardness(0.4f)
+                            .sounds(BlockSoundGroup.MOSS_CARPET)
+            ));
 
     public static final FlowerBlock HYDRANGEA_FLOWER = (FlowerBlock) registerBlock("hydrangea_flower",
             new FlowerBlock(
                     SuspiciousStewEffectsComponent.DEFAULT,
                     AbstractBlock.Settings.create()
-                        .breakInstantly()
-                        .noCollision()
-                        .breakInstantly()
-                        .sounds(BlockSoundGroup.GRASS)
-                        .offset(AbstractBlock.OffsetType.XZ)
-                        .pistonBehavior(PistonBehavior.DESTROY)
-                        .nonOpaque()
+                            .breakInstantly()
+                            .noCollision()
+                            .sounds(BlockSoundGroup.GRASS)
+                            .offset(AbstractBlock.OffsetType.XZ)
+                            .pistonBehavior(PistonBehavior.DESTROY)
+                            .nonOpaque()
             ));
 
     public static final BushyLeafBlock HYDRANGEA_LEAVES = (BushyLeafBlock) registerBlock("hydrangea_leaves",
