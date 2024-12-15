@@ -2,17 +2,41 @@
   "variants": {
     "velded=false":[
       {
-        "model": "deified:block/multi-model/velded/limestone_bricks"
+        "model": "deified:block/multi-model/velded/limestone_bricks/limestone_bricks_0"
       },
       {
-        "model": "deified:block/mirrored/limestone_bricks"
+        "model": "deified:block/mirrored/limestone_bricks/limestone_bricks_0"
+      },
+      {
+        "model": "deified:block/multi-model/velded/limestone_bricks/limestone_bricks_1"
+      },
+      {
+        "model": "deified:block/mirrored/limestone_bricks/limestone_bricks_1"
+      },
+      {
+        "model": "deified:block/multi-model/velded/limestone_bricks/limestone_bricks_2"
+      },
+      {
+        "model": "deified:block/mirrored/limestone_bricks/limestone_bricks_2"
       }],
     "velded=true":[
       {
-        "model": "deified:block/multi-model/velded/velded_limestone_bricks"
+        "model": "deified:block/multi-model/velded/limestone_bricks/velded_limestone_bricks_0"
       },
       {
-        "model": "deified:block/mirrored/velded_limestone_bricks"
+        "model": "deified:block/mirrored/limestone_bricks/velded_limestone_bricks_0"
+      },
+      {
+        "model": "deified:block/multi-model/velded/limestone_bricks/velded_limestone_bricks_1"
+      },
+      {
+        "model": "deified:block/mirrored/limestone_bricks/velded_limestone_bricks_1"
+      },
+      {
+        "model": "deified:block/multi-model/velded/limestone_bricks/velded_limestone_bricks_2"
+      },
+      {
+        "model": "deified:block/mirrored/limestone_bricks/velded_limestone_bricks_2"
       }]
   }
 }

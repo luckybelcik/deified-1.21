@@ -1,12 +1,15 @@
 {
   "replace": false,
   "values": [
+    "deified:roof_tiles",
     "deified:limestone",
     "deified:limestone_bricks",
+    "deified:damaged_limestone_bricks",
     "deified:cobbled_limestone",
     "deified:marble",
     "deified:smooth_marble",
     "deified:smooth_marble_slab",
+    "deified:smooth_marble_stairs",
     "deified:chiseled_marble",
     "deified:marble_bricks"
   ]

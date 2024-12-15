@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "type=bottom,facing=north": {
+      "model": "deified:block/multi-model/roof_tiles"
+    },
+    "type=bottom,facing=east": {
+      "model": "deified:block/multi-model/roof_tiles", "y": 90
+    },
+    "type=bottom,facing=south": {
+      "model": "deified:block/multi-model/roof_tiles", "y": 180
+    },
+    "type=bottom,facing=west": {
+      "model": "deified:block/multi-model/roof_tiles", "y": 270
+    },
+    "type=double,facing=north": {
+      "model": "deified:block/multi-model/roof_tiles_double"
+    },
+    "type=double,facing=east": {
+      "model": "deified:block/multi-model/roof_tiles_double", "y": 90
+    },
+    "type=double,facing=south": {
+      "model": "deified:block/multi-model/roof_tiles_double", "y": 180
+    },
+    "type=double,facing=west": {
+      "model": "deified:block/multi-model/roof_tiles_double", "y": 270
+    },
+    "type=top,facing=north": {
+      "model": "deified:block/multi-model/roof_tiles_top"
+    },
+    "type=top,facing=east": {
+      "model": "deified:block/multi-model/roof_tiles_top", "y": 90
+    },
+    "type=top,facing=south": {
+      "model": "deified:block/multi-model/roof_tiles_top", "y": 180
+    },
+    "type=top,facing=west": {
+      "model": "deified:block/multi-model/roof_tiles_top", "y": 270
+    }
+  }
+}

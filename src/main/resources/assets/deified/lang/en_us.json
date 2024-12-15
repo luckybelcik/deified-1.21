@@ -10,8 +10,12 @@
   "block.deified.protected_blessed_dirt": "Protected Blessed Dirt",
   "block.deified.blessed_grass_block": "Blessed Grass Block",
   "block.deified.protected_blessed_grass_block": "Protected Blessed Grass Block",
+
+  "block.deified.roof_tiles": "Roof Tiles",
+
   "block.deified.limestone": "Limestone",
   "block.deified.limestone_bricks": "Limestone Bricks",
+  "block.deified.damaged_limestone_bricks": "Damaged Limestone Bricks",
   "block.deified.cobbled_limestone": "Cobbled Limestone",
   "block.deified.marble": "Marble",
   "block.deified.smooth_marble": "Smooth Marble",

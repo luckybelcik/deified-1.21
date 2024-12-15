@@ -24,55 +24,35 @@ public class ModBlocks {
         public static final Block PROTECTED_BLESSED_GRASS_BLOCK = registerBlock("protected_blessed_grass_block",
             new Block(AbstractBlock.Settings.create().strength(0.6f).sounds(BlockSoundGroup.GRASS)));
 
+        // BUILDING BLOCKS
+
+    public static final ModDirectionalSlab ROOF_TILES = (ModDirectionalSlab) registerBlock("roof_tiles",
+            new ModDirectionalSlab(AbstractBlock.Settings.create().strength(0.8f).sounds(BlockSoundGroup.STONE).requiresTool()));
+
         // STONES AND STUFF
 
     public static final VeldableBlock LIMESTONE = (VeldableBlock) registerBlock("limestone",
-            new VeldableBlock(AbstractBlock.Settings.create()
-                    .strength(0.8f)
-                    .sounds(BlockSoundGroup.STONE)
-                    .requiresTool()));
+            new VeldableBlock(AbstractBlock.Settings.create().strength(0.8f).sounds(BlockSoundGroup.STONE).requiresTool()));
     public static final VeldableBlock LIMESTONE_BRICKS = (VeldableBlock) registerBlock("limestone_bricks",
-            new VeldableBlock(AbstractBlock.Settings.create()
-                    .strength(1f)
-                    .sounds(BlockSoundGroup.STONE)
-                    .requiresTool()));
+            new VeldableBlock(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.STONE).requiresTool()));
+    public static final VeldableBlock DAMAGED_LIMESTONE_BRICKS = (VeldableBlock) registerBlock("damaged_limestone_bricks",
+            new VeldableBlock(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.STONE).requiresTool()));
     public static final VeldableBlock COBBLED_LIMESTONE = (VeldableBlock) registerBlock("cobbled_limestone",
-            new VeldableBlock(AbstractBlock.Settings.create()
-                    .strength(1.2f)
-                    .sounds(BlockSoundGroup.STONE)
-                    .requiresTool()));
+            new VeldableBlock(AbstractBlock.Settings.create().strength(1.2f).sounds(BlockSoundGroup.STONE).requiresTool()));
 
     public static final Block MARBLE = registerBlock("marble",
-            new Block(AbstractBlock.Settings.create()
-                    .strength(1f)
-                    .sounds(BlockSoundGroup.STONE)
-                    .requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.STONE).requiresTool()));
     public static final Block SMOOTH_MARBLE = registerBlock("smooth_marble",
-            new Block(AbstractBlock.Settings.create()
-                    .strength(0.6f)
-                    .sounds(BlockSoundGroup.STONE)
-                    .requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(0.6f).sounds(BlockSoundGroup.STONE).requiresTool()));
     public static final Block SMOOTH_MARBLE_SLAB = registerBlock("smooth_marble_slab",
-            new SlabBlock(AbstractBlock.Settings.create()
-                    .strength(0.6f)
-                    .sounds(BlockSoundGroup.STONE)
-                    .requiresTool()));
+            new SlabBlock(AbstractBlock.Settings.create().strength(0.6f).sounds(BlockSoundGroup.STONE).requiresTool()));
     public static final Block SMOOTH_MARBLE_STAIRS = registerBlock("smooth_marble_stairs",
             new StairsBlock(SMOOTH_MARBLE.getDefaultState()
-                    , AbstractBlock.Settings.create()
-                    .strength(0.6f)
-                    .sounds(BlockSoundGroup.STONE)
-                    .requiresTool()));
+                    ,AbstractBlock.Settings.create().strength(0.6f).sounds(BlockSoundGroup.STONE).requiresTool()));
     public static final Block MARBLE_BRICKS = registerBlock("marble_bricks",
-            new Block(AbstractBlock.Settings.create()
-                    .strength(1.4f)
-                    .sounds(BlockSoundGroup.STONE)
-                    .requiresTool()));
+            new Block(AbstractBlock.Settings.create().strength(1.4f).sounds(BlockSoundGroup.STONE).requiresTool()));
     public static final Block CHISELED_MARBLE = registerBlock("chiseled_marble",
-            new PillarBlock(AbstractBlock.Settings.create()
-                    .strength(1.4f)
-                    .sounds(BlockSoundGroup.STONE)
-                    .requiresTool()));
+            new PillarBlock(AbstractBlock.Settings.create().strength(1.4f).sounds(BlockSoundGroup.STONE).requiresTool()));
 
         // PLANTS AND STUFF
 

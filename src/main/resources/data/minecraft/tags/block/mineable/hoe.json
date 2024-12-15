@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "deified:hydrangea_leaves"
+    "deified:hydrangea_leaves",
+    "deified:veld_block",
+    "deified:veld_carpet"
   ]
 }

@@ -3,8 +3,8 @@
 	"parent": "block/block",
 	"textures": {
 		"top": "deified:block/veld_overlay_top",
-		"particle": "deified:block/limestone_bricks",
-		"side": "deified:block/limestone_bricks",
+		"particle": "deified:block/limestone_bricks_2b",
+		"side": "deified:block/limestone_bricks_2b",
 		"overlay": "deified:block/veld_overlay_side"
 	},
 	"elements": [
