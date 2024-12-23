@@ -36,6 +36,8 @@ public class ModItemGroups {
                       entries.add(ModBlocks.WISTERIA_LOG);
                       entries.add(ModBlocks.STRIPPED_WISTERIA_LOG);
                       entries.add(ModBlocks.WISTERIA_PLANKS);
+                      entries.add(ModBlocks.WISTERIA_SLAB);
+                      entries.add(ModBlocks.WISTERIA_STAIRS);
                       entries.add(ModBlocks.WISTERIA_LEAVES);
                       entries.add(ModBlocks.WISTERIA_SAPLING);
                       entries.add(ModBlocks.HANGING_WISTERIA_VINES);

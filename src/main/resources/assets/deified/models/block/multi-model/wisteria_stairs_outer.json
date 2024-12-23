@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "deified:block/wisteria_planks",
+    "side": "deified:block/wisteria_planks",
+    "top": "deified:block/wisteria_planks"
+  }
+}

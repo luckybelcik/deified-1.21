@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "deified:smooth_marble"
+      "item": "deified:wisteria_planks"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "deified:smooth_marble_slab"
+    "id": "deified:wisteria_slab"
   }
 }

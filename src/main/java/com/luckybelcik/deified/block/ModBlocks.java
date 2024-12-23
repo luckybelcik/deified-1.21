@@ -65,6 +65,10 @@ public class ModBlocks {
             new PillarBlock(AbstractBlock.Settings.create().mapColor(MapColor.PALE_PURPLE).instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(BlockSoundGroup.WOOD).burnable()));
     public static final Block WISTERIA_PLANKS = registerBlock("wisteria_planks",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.PALE_PURPLE).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final SlabBlock WISTERIA_SLAB = (SlabBlock) registerBlock("wisteria_slab",
+            new SlabBlock(AbstractBlock.Settings.create().mapColor(MapColor.PALE_PURPLE).strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final StairsBlock WISTERIA_STAIRS = (StairsBlock) registerBlock("wisteria_stairs",
+            createStairsBlock(WISTERIA_PLANKS));
 
         // PLANTS AND STUFF
 
@@ -92,8 +96,10 @@ public class ModBlocks {
                             .pistonBehavior(PistonBehavior.DESTROY)
                             .nonOpaque()
             ));
-    public static final BushyLeafBlock HYDRANGEA_LEAVES = (BushyLeafBlock) registerBlock("hydrangea_leaves",
-            new BushyLeafBlock(AbstractBlock.Settings.create()));
+    public static final MultipleFlowerBlock SPIDER_LILY = (MultipleFlowerBlock) registerBlock("spider_lily", new MultipleFlowerBlock(
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.DARK_RED)
+    ));
 
     public static final Block WISTERIA_LEAVES = registerBlock("wisteria_leaves",
             createModLeavesBlock(BlockSoundGroup.CHERRY_LEAVES));
@@ -102,10 +108,10 @@ public class ModBlocks {
     public static final Block HANGING_WISTERIA_VINES = registerBlock("hanging_wisteria_vines",
             new ModHangingWisteriaVinesBlock(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_PURPLE).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).pistonBehavior(PistonBehavior.DESTROY)));
 
-    public static final MultipleFlowerBlock SPIDER_LILY = (MultipleFlowerBlock) registerBlock("spider_lily", new MultipleFlowerBlock(
-            AbstractBlock.Settings.create()
-                    .mapColor(MapColor.DARK_RED)
-    ));
+    public static final BushyLeafBlock HYDRANGEA_LEAVES = (BushyLeafBlock) registerBlock("hydrangea_leaves",
+            new BushyLeafBlock(AbstractBlock.Settings.create()));
+
+        // HELPER METHODS
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -117,7 +123,9 @@ public class ModBlocks {
 			return state.get(PillarBlock.AXIS) == Direction.Axis.Y ? topMapColor : sideMapColor;
 		}).instrument(NoteBlockInstrument.BASS).strength(2.0F).sounds(BlockSoundGroup.WOOD).burnable());
 	}
-
+    private static Block createStairsBlock(Block base) {
+		return new StairsBlock(base.getDefaultState(), AbstractBlock.Settings.copy(base));
+	}
     public static Block createModLeavesBlock(BlockSoundGroup soundGroup) {
 		return new LeavesBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).strength(0.2F).ticksRandomly().sounds(soundGroup).nonOpaque().allowsSpawning(Blocks::canSpawnOnLeaves).suffocates(Blocks::never).blockVision(Blocks::never).burnable().pistonBehavior(PistonBehavior.DESTROY).solidBlock(Blocks::never));
 	}
