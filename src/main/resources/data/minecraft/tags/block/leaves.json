@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "deified:hydrangea_leaves"
+    "deified:hydrangea_leaves",
+    "deified:wisteria_leaves"
   ]
 }

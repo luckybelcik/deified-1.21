@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "is_bottom=false": {
+      "model": "deified:block/multi-model/age/hanging_wisteria_vines_0"
+    },
+    "is_bottom=true": {
+      "model": "deified:block/multi-model/age/hanging_wisteria_vines_1"
+    }
+  }
+}

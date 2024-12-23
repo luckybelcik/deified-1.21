@@ -33,6 +33,12 @@ public class ModItemGroups {
                       entries.add(ModBlocks.SMOOTH_MARBLE_STAIRS);
                       entries.add(ModBlocks.SMOOTH_MARBLE);
                       entries.add(ModBlocks.CHISELED_MARBLE);
+                      entries.add(ModBlocks.WISTERIA_LOG);
+                      entries.add(ModBlocks.STRIPPED_WISTERIA_LOG);
+                      entries.add(ModBlocks.WISTERIA_PLANKS);
+                      entries.add(ModBlocks.WISTERIA_LEAVES);
+                      entries.add(ModBlocks.WISTERIA_SAPLING);
+                      entries.add(ModBlocks.HANGING_WISTERIA_VINES);
                       entries.add(ModBlocks.VELD_BLOCK);
                       entries.add(ModBlocks.VELD_CARPET);
                       entries.add(ModBlocks.SPIDER_LILY);
